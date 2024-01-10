@@ -6,6 +6,7 @@ stage('First stage')
 steps{
 git branch: 'master', url: 'https://github.com/dhanunjayasneha/t1.git'
 }
+}
 stage('Second stage')
 {
 steps{
